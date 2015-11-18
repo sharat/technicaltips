@@ -8,7 +8,7 @@ Kdiff is one my favorite merge tools around. But how to set this up with git?
 
 # Simple setup
 
-- Add a symbolic link in the path `$ ln -s /Applications/kdiff3.app/Contents/MacOS/kdiff3 /usr/local/bin/kdiffs`. Note that kdiff3 is name is important because that's the name idenitified by Git as one of the supported known tools. If you're choosing a different name or not wanted to add kdiff in the path, choose the alternative method
+- Add a symbolic link in the path `$ ln -s /Applications/kdiff3.app/Contents/MacOS/kdiff3 /usr/local/bin/kdiff3`. Note that kdiff3 is name is important because that's the name idenitified by Git as one of the supported known tools. If you're choosing a different name or not wanted to add kdiff in the path, choose the alternative method
 
 - Enter `$ git config --global merge.tool kdiff3`
 
